@@ -1,0 +1,6 @@
+OcrConf:
+  Endpoint: ocr.tencentcloudapi.com
+  Region: ap-guangzhou
+Http:
+  IP: 0.0.0.0
+  Port: 80

@@ -1,0 +1,3 @@
+1、logrus 自定义writer打印日志
+2、为logrus实现三种自定义writer
+3、使用logrus来作为gin框架的中间件

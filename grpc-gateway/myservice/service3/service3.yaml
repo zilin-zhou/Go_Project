@@ -1,0 +1,19 @@
+type: google.api.Service
+config_version: 3
+
+http:
+  rules:
+    - selector: myservice.Service3.Echo
+      post: "/v1/echo"
+      body: "*"
+      additional_bindings:
+        - get: "/v1/echo/{name}/{age}"
+        - get: "/v1/echo/{sex}/{number}"
+    - selector: myservice.Service3.EchoBody
+      post: "/v1/echo_body"
+      body: "*"
+      additional_bindings:
+        - put: "/v1/echo_body/{name}"
+          body: "msg"
+    - selector: myservice.Service3.EchoDelete
+      delete: "/v1/echo_delete/{name}"

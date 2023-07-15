@@ -1,0 +1,11 @@
+CosConf:
+  Host: sts.tencentcloudapi.com
+  Appid: 1318251245
+  Bucket: project-1318251245
+  Region: ap-guangzhou
+  RoleArn: qcs::cam::uin/100031390324:roleName/project-cos
+  RoleSessionName: project-cos
+  DurationSeconds: 3600
+HttpConf:
+  IP: 0.0.0.0
+  Port: 80

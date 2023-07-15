@@ -1,0 +1,1 @@
+{"client_IP":"::1","file":"F:/Go_Project/logrus/main.go:51","func":"main.myLogger","latency":900100,"level":"info","method":"GET","msg":"","path":"/ping","size":14,"status_code":200,"time":"2023-05-21T17:42:50+08:00"}

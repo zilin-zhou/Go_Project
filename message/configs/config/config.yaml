@@ -1,0 +1,9 @@
+SmsConf:
+  Endpoint: sms.tencentcloudapi.com
+  Region: ap-guangzhou
+  SignMethod: HmacSHA1
+  ReqMethod: POST
+  SmsSdkAppID: 1400823653
+Http:
+  IP: 0.0.0.0
+  Port: 80

@@ -1,0 +1,2 @@
+{"file":"F:/Go_Project/logrus/main.go:27","func":"main.main","level":"warning","msg":"The group's number increased tremendously!","number":122,"omg":true,"time":"2023-05-21T16:49:31+08:00"}
+{"file":"F:/Go_Project/logrus/main.go:32","func":"main.main","level":"fatal","msg":"The ice breaks!","number":100,"omg":true,"time":"2023-05-21T16:49:31+08:00"}
